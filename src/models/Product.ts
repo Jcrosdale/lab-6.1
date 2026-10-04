@@ -5,13 +5,11 @@ class Product {
     sku: string;
     name: string;
     price: number;
-    taxRate: number;
 
-    constructor(sku: string, name: string, price: number, taxRate: number) {
+    constructor(sku: string, name: string, price: number) {
         this.sku = sku;
         this.name = name;
         this.price = price;
-        this.taxRate = taxRate;
     }
     // Methods
 
@@ -22,8 +20,7 @@ class Product {
 
     //Calculates the final price of the product with tax.
     getPriceWithTax(): number {
-        let result = this.price * (1 + this.taxRate);
-        return Math.round(result * 100) / 100; 
+        return this.price;
     }
 
 }
