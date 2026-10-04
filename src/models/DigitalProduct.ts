@@ -17,3 +17,5 @@ class DigitalProduct extends Product {
     }
 
 }
+
+export default DigitalProduct;

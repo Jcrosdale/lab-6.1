@@ -26,7 +26,3 @@ class Product {
 
 export default Product;
 
- //Returns a formatted string with the product’s details.
-    //displayDetails() {
-        //return `${this.name} costs $${this.price}. The sku is ${this.sku}.`;
-    //}

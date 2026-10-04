@@ -12,4 +12,5 @@ class DigitalProduct extends Product {
         return `${this.fileSize} MB`;
     }
 }
+export default DigitalProduct;
 //# sourceMappingURL=DigitalProduct.js.map

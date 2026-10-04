@@ -1,1 +1,1 @@
-{"version":3,"file":"PhysicalProduct.d.ts","sourceRoot":"","sources":["../../src/models/PhysicalProduct.ts"],"names":[],"mappings":""}
+{"version":3,"file":"PhysicalProduct.d.ts","sourceRoot":"","sources":["../../src/models/PhysicalProduct.ts"],"names":[],"mappings":"AACA,OAAO,OAAO,MAAM,cAAc,CAAC;AAEnC,cAAM,eAAgB,SAAQ,OAAO;IAEjC,MAAM,EAAE,MAAM,CAAC;IAEf,YAAa,GAAG,EAAC,MAAM,EAAE,IAAI,EAAC,MAAM,EAAE,KAAK,EAAC,MAAM,EAAE,MAAM,EAAC,MAAM,EAGhE;IAGD,eAAe,IAAI,MAAM,CAGxB;IAGD,IAAI,YAAY,IAAI,MAAM,CAEzB;CAEJ;eAEc,eAAe"}

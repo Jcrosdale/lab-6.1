@@ -17,4 +17,5 @@ class PhysicalProduct extends Product {
         return `${this.weight} kg`;
     }
 }
+export default PhysicalProduct;
 //# sourceMappingURL=PhysicalProduct.js.map

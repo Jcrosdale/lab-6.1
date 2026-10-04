@@ -22,3 +22,5 @@ class PhysicalProduct extends Product {
     }
 
 }
+
+export default PhysicalProduct;
