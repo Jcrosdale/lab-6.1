@@ -1,6 +1,6 @@
 // Create a PhysicalProduct class that extends Product.
 import Product from "./Product.js";
-import type DiscountableProduct from "./DiscountableProduct.js";
+import type { DiscountableProduct } from "./DiscountableProduct.js";
 
 class PhysicalProduct extends Product implements DiscountableProduct{
     //Add a weight property (number) for physical products.

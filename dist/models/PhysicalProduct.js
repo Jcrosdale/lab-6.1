@@ -1,6 +1,5 @@
 // Create a PhysicalProduct class that extends Product.
 import Product from "./Product.js";
-import DiscountableProduct from "./DiscountableProduct.js";
 class PhysicalProduct extends Product {
     //Add a weight property (number) for physical products.
     weight;

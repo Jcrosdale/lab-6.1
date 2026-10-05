@@ -1,2 +1,2 @@
-export default DiscountableProduct;
+export {};
 //# sourceMappingURL=DiscountableProduct.js.map
