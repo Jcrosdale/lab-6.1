@@ -1,5 +1,6 @@
 // Create a PhysicalProduct class that extends Product.
 import Product from "./Product.js";
+import DiscountableProduct from "./DiscountableProduct.js";
 class PhysicalProduct extends Product {
     //Add a weight property (number) for physical products.
     weight;
@@ -15,6 +16,9 @@ class PhysicalProduct extends Product {
     //Use a getter method to return the formatted weight in kilograms (e.g. “2.5 kg”).
     get formatWeight() {
         return `${this.weight} kg`;
+    }
+    applyDiscount(discountPercent) {
+        return this.price - (this.price * (discountPercent / 100));
     }
 }
 export default PhysicalProduct;

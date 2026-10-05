@@ -1,7 +1,8 @@
 // Create a PhysicalProduct class that extends Product.
 import Product from "./Product.js";
+import type DiscountableProduct from "./DiscountableProduct.js";
 
-class PhysicalProduct extends Product {
+class PhysicalProduct extends Product implements DiscountableProduct{
     //Add a weight property (number) for physical products.
     weight: number;
 
@@ -20,6 +21,11 @@ class PhysicalProduct extends Product {
     get formatWeight(): string {
         return `${this.weight} kg`;
     }
+
+    applyDiscount(discountPercent: number): number {
+        return this.price - (this.price * (discountPercent/100))
+    }
+    
 
 }
 
