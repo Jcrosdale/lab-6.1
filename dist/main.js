@@ -6,5 +6,6 @@ const products = [physicalProduct, digitalProduct];
 for (let product of products) {
     console.log(product.displayDetails());
     console.log(product.getPriceWithTax());
+    console.log(physicalProduct.applyDiscount(15));
 }
 //# sourceMappingURL=main.js.map

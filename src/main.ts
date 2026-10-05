@@ -1,6 +1,7 @@
 import PhysicalProduct from "./models/PhysicalProduct.js";
 import DigitalProduct from "./models/DigitalProduct.js";
 
+
 const physicalProduct = new PhysicalProduct(
     '0001',
     'Product #1',
@@ -19,4 +20,5 @@ const products = [physicalProduct, digitalProduct];
 for (let product of products) {
     console.log(product.displayDetails());
     console.log(product.getPriceWithTax());
+    console.log(physicalProduct.applyDiscount(15));
 }
